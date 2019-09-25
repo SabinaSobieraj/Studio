@@ -1,0 +1,299 @@
+@import url('reset.css');
+@import url('button.css');
+@import url('responsive.css');
+@import url('text.css');
+@import url('image.css');
+@import url('contacts.css');
+
+* {
+    box-sizing: border-box;
+    color: #87595A;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+overflow-x: hidden;
+}
+
+
+
+nav {
+    position: absolute;
+    z-index: 100;
+}
+
+
+.background {
+    width: 100%;
+    background: url(img/tło2.png) no-repeat;
+    background-position: top;
+    background-position: 100% 1%;
+    background-size: cover;
+    position: relative;
+    top: 0rem;
+  }
+
+.transparent {
+    background-color: rgba(230, 218, 223, 0.3);
+}
+
+
+
+
+.click {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+.mainpictrue {
+    background-image: url(img/owner.jpg);
+    background-size: cover;
+    z-index: 10; 
+}
+
+.maintext {
+    background-color: #E6DADF;
+    position: relative;
+}
+
+.maintext h1 {
+    padding-top: 3rem;
+    text-align: right;
+}
+
+.coment {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.new {
+    width: 100%;
+    width: 590px;
+}
+
+.opinion p {
+    /* background-color: rgba(231, 222, 213, 0.7); */
+    border-radius: 25%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.service {
+    padding: 0rem 0rem 5rem;
+}
+
+.serviceimg {
+    -webkit-box-shadow: 0px 0px 16px -5px rgba(227,220,227,1);
+-moz-box-shadow: 0px 0px 16px -5px rgba(227,220,227,1);
+box-shadow: 0px 0px 16px -5px rgba(227,220,227,1);
+}
+
+.service h2 {
+    padding: 4rem 0 4rem;
+}
+
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.call {
+    background-color: #E6DADF;
+}
+
+.call h2 {
+    padding: 3rem 0rem;
+}
+
+.portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1% 0 1.5%;
+        }
+
+.photo img{
+    width: 100%;
+    margin: 5px 2.5px;
+    overflow: hidden;
+}
+
+
+.studio img {
+    width: 100px;
+    height: 50px;
+}
+
+/* Slider Section  */
+/* #slider {
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: block;
+    width: 1920px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slide {
+    float: left;
+    list-style-type: none;
+    width: auto;
+    height: 300px;
+  }
+ 
+
+   .slide img {
+       width: 300px;
+       height: 300px;
+   } */
+
+.clients {
+    background-image: url(img/ananas.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+}
+
+.opinion {
+    padding: 5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 16px -5px rgba(128,107,84,1);
+    -moz-box-shadow: 0px 0px 16px -5px rgba(128,107,84,1);
+    box-shadow: 0px 0px 16px -5px rgba(128,107,84,1);
+    margin: 3rem;
+    background-image: url(img/32605.jpg);
+    background-size: cover;
+z-index: 2000;
+}
+
+
+.slide {
+display: flex;
+}
+
+
+.minicircle {
+    border-radius: 50%;
+    background: #fff;
+    margin:2rem 0.4rem;
+}
+
+.price {
+    padding: 2rem 0rem;
+}
+
+.price h2{
+text-transform: uppercase;
+display: flex;
+justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+summary {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+color: transparent;
+border-bottom: 1px solid rgba(230, 218, 223, 1);
+margin: 4rem 0rem;
+}
+
+summary h3 {
+    padding-bottom: 2rem;
+}
+
+li {
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+}
+
+
+.mark {
+    background-image: url(img/marki/lakiery.jpg);
+    background-position: 100% 45%;
+    background-size: cover;
+    padding: 7rem 0rem;
+    margin-top: 5rem;
+}
+
+.owers {
+    width: 100%;
+    background-color: #fff;
+display: flex;
+flex-direction: row;
+margin-top: 3rem;
+-webkit-box-shadow: 0px 0px 16px 3px rgba(255,255,255,0.55);
+-moz-box-shadow: 0px 0px 16px 3px rgba(255,255,255,0.55);
+box-shadow: 0px 0px 16px 3px rgba(255,255,255,0.55);
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgba(230, 218, 223, 1);
+    padding: 5rem 0rem;
+}
+
+.studio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.studio img {
+    padding-bottom: 0.7rem;
+}
+
+.studio p {
+    text-align: center;
+}
+
+.conteinerNew {
+    padding: 7.5rem 1rem;
+}
+
+
+.social {
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+
+
+
+.rights {
+    padding-top: 3rem;
+    text-align: center;
+}

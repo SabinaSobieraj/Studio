@@ -1,0 +1,64 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 0.5rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+    word-spacing: 0.5rem;
+    text-transform: uppercase;
+    padding: 2rem 0rem 4rem;
+}
+
+.menu li a {
+    font-family: 'PT Sans', sans-serif;
+    color: #87595A;
+    font-size: 1.6rem;
+    font-weight: 700;
+    
+}
+
+.main {
+    padding-top: 1rem;
+    padding-bottom: 7rem;
+}
+
+.main h2 {
+    text-align: right;
+    padding: 3rem 3rem 0rem;
+}
+
+p {
+    font-family: azo-sans-web, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    word-spacing: 0.3rem;
+    line-height: 3rem;
+
+}
+
+.rights p {
+font-family: azo-sans-web, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+}
+
+h4 {
+    font-family: azo-sans-web, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 2rem;
+}
+
+.title p {
+font-family: azo-sans-web, sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 1.6rem;
+text-align: center;
+text-transform: uppercase;
+}

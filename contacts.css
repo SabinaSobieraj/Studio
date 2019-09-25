@@ -1,0 +1,81 @@
+.new {
+    max-width: 590px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+
+.new h2 {
+    font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+    font-size: 25px;
+    word-spacing: 0.5rem;
+    text-align: center;
+padding-bottom: 2rem;
+
+}
+
+
+  input[type=text], input[type=email], textarea {
+    width: 100%;
+    border: 1px solid #C6A8A8;
+    padding: 10px;
+    margin: 5px 0;
+  }
+
+  input[type=submit] {
+    background: #C6A8A8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .alert-box {
+    width: 500px;
+    margin: auto;
+  }
+
+  .content {
+      max-height: 10px;
+  }
+
+  .error {
+    background: rgb(219, 87, 87);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .message-success {
+    background: rgb(118, 151, 118);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .field-error-container {
+    position: relative;
+  }
+
+  .field-error-name, .field-error-email, .field-error-content {
+    position: absolute;
+    top: 31px;
+    right: 10px;
+    background: rgb(173, 69, 69);
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: none;
+  }
+
+  label {
+    font-family: azo-sans-web, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    word-spacing: 0.3rem;  }
